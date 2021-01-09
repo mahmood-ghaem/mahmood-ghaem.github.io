@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box; /* https://www.w3schools.com/css/css3_box-sizing.asp */
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #1c1f29;
+  font-family: 'Montserrat', 'Open Sans', 'Roboto';
+  /*font-weight: normal;*/
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+header {
+  font-size: 60px;
+  color: #bababa;
+  text-align: center;
+  margin-top: 30px;
+}
+footer {
+  font-size: 30px;
+  color: #bababa;
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #bababa;
+}
+footer a:hover {
+  color: #31c77f;
+}
+h1 {
+  font-size: 45px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: justify; /* reference: https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
+}
+
+/*#region section & content */
+
+section {
+  display: block;
+}
+
+section.content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.minimize-divider {
+  font-size: 30px !important;
+}
+
+@media only screen and (min-width: 576px) {
+  section.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  section.content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  section.content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/*#region div container inside section - main div of section */
+
+.content-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.content-container-block {
+  padding-top: 20px;
+  position: relative;
+  text-align: left !important;
+}
+
+/*#endregion */
+
+/*#endregion */
+
+/*#region text appearance */
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-gray {
+  color: #bababa !important;
+}
+
+.text-orange {
+  color: #ff6e00 !important; /* https://www.holland.com/global/tourism.htm */
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/*#endregion */
+
+/*#region Manage Cols to Responsive Web Design */
+/* https://www.w3schools.com/css/css_rwd_intro.asp */
+
+[class*='col-'] {
+  float: left;
+  padding: 1px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*#region Smallest size for mobile  */
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/*#endregion */
+
+@media only screen and (min-width: 576px) {
+  .col-sm-1 {
+    width: 8.33%;
+  }
+
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: 33.33%;
+  }
+
+  .col-sm-5 {
+    width: 41.66%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    width: 58.33%;
+  }
+
+  .col-sm-8 {
+    width: 66.66%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  .col-sm-11 {
+    width: 91.66%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33%;
+  }
+
+  .col-xl-2 {
+    width: 16.66%;
+  }
+
+  .col-xl-3 {
+    width: 25%;
+  }
+
+  .col-xl-4 {
+    width: 33.33%;
+  }
+
+  .col-xl-5 {
+    width: 41.66%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .col-xl-7 {
+    width: 58.33%;
+  }
+
+  .col-xl-8 {
+    width: 66.66%;
+  }
+
+  .col-xl-9 {
+    width: 75%;
+  }
+
+  .col-xl-10 {
+    width: 83.33%;
+  }
+
+  .col-xl-11 {
+    width: 91.66%;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+/*#endregion */
+
+.btn-email {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  font-weight: 700;
+  box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.15);
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  width: 100%;
+  padding: 1rem 2.5rem;
+  font-size: 1.0625rem;
+  line-height: 1.47;
+  border-radius: 0.375rem;
+  color: #fff;
+  border-color: #31c77f;
+  background-color: #31c77f;
+  margin-top: 3.75rem;
+  text-decoration: none;
+}
+.btn-email:hover {
+  color: #fff;
+  border-color: #2ca46d;
+  background-color: #2ca46d;
+  box-shadow: none;
+  text-decoration: none;
+}
+.my-image {
+  border-radius: 15px;
+  width: 100%;
+}
+.left-side-phone {
+  align-items: center;
+  display: inline-flex;
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+.left-side-phone .phone-number {
+  font-size: 1.5rem;
+  line-height: 1.54;
+}
+.left-side-phone .phone-number a {
+  text-decoration: none;
+  transition: color 0.2s;
+  color: black;
+}
+.left-side-phone .phone-number a:hover {
+  text-decoration: none;
+  color: #31c77f;
+}
+.left-side-container {
+  text-align: center;
+}
+.right-side-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.right-side-container a {
+  color: #6b39bd;
+  text-decoration: none;
+}
+.right-side-container a:hover {
+  color: #31c77f;
+}

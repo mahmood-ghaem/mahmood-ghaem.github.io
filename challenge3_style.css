@@ -1,0 +1,19 @@
+body {
+  background-color: #364371;
+}
+#nav,
+#content {
+  float: left;
+  padding: 1px;
+}
+#content {
+  background-color: #5b7fbd;
+}
+#nav {
+  background-color: #b0cfff;
+}
+#wrap:after {
+  content: '';
+  display: table;
+  clear: both;
+}

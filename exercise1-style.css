@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(146, 14, 14, 0.26)),
+    url(images/Hausboote-in-Amsterdam.jpg);
+  height: 100vh; /* https://www.w3schools.com/cssref/css_units.asp */
+  background-size: cover;
+  background-position: center;
+}
+.menu {
+  float: left;
+  list-style: none;
+  margin: 20px;
+}
+.menu li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
