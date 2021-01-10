@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+.bird-body {
+  width: 500px;
+  margin-top: 200px;
+  background-color: black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  content: ' ';
+  height: 100vh;
+  text-align: center;
+}
+.bird-eye {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.bird-neb {
+  margin-top: 400px;
+  width: 0;
+  height: 0;
+  border-top: 125px solid transparent;
+  border-left: 150px solid yellow;
+  border-bottom: 125px solid transparent;
+}
+.bird-neb img {
+}
