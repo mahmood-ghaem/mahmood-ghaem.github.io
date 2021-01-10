@@ -19,6 +19,21 @@ header {
   text-align: center;
   margin-top: 30px;
 }
+main {
+  text-align: center;
+  height: 80vh;
+}
+main a {
+  font-size: 1.5rem;
+  line-height: 1.54;
+  text-decoration: none;
+  transition: color 0.2s;
+  color: black;
+}
+main a:hover {
+  text-decoration: none;
+  color: #31c77f;
+}
 footer {
   font-size: 30px;
   color: #bababa;
@@ -49,4 +64,10 @@ h3 {
 
 p {
   text-align: justify; /* reference: https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
+}
+ul {
+  list-style: none;
+}
+ul li {
+  margin: 20px 0px;
 }
