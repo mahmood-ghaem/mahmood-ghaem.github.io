@@ -17,11 +17,13 @@ header {
   font-size: 60px;
   color: #bababa;
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 main {
-  text-align: center;
-  height: 80vh;
+  margin: 0 auto;
+  width: 680px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
 }
 main a {
   font-size: 1.5rem;
@@ -38,7 +40,7 @@ footer {
   font-size: 30px;
   color: #bababa;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 footer a {
   text-decoration: none;
@@ -46,24 +48,6 @@ footer a {
 }
 footer a:hover {
   color: #31c77f;
-}
-h1 {
-  font-size: 45px;
-  margin-top: 0px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
-
-p {
-  text-align: justify; /* reference: https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
 }
 ul {
   list-style: none;
