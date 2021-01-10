@@ -65,10 +65,6 @@ section.content {
   padding-bottom: 30px;
 }
 
-.minimize-divider {
-  font-size: 30px !important;
-}
-
 @media only screen and (min-width: 576px) {
   section.content {
     padding-top: 40px;
@@ -97,8 +93,6 @@ section.content {
   }
 }
 
-/*#region div container inside section - main div of section */
-
 .content-container {
   width: 100%;
   padding-right: 15px;
@@ -114,33 +108,6 @@ section.content {
   text-align: left !important;
 }
 
-/*#endregion */
-
-/*#endregion */
-
-/*#region text appearance */
-
-.text-white {
-  color: #fff !important;
-}
-
-.text-gray {
-  color: #bababa !important;
-}
-
-.text-orange {
-  color: #ff6e00 !important; /* https://www.holland.com/global/tourism.htm */
-}
-
-.font-weight-bold {
-  font-weight: 700 !important;
-}
-
-/*#endregion */
-
-/*#region Manage Cols to Responsive Web Design */
-/* https://www.w3schools.com/css/css_rwd_intro.asp */
-
 [class*='col-'] {
   float: left;
   padding: 1px;
@@ -151,8 +118,6 @@ section.content {
   display: table;
   clear: both;
 }
-
-/*#region Smallest size for mobile  */
 
 .col-1 {
   width: 8.33%;
@@ -201,8 +166,6 @@ section.content {
 .col-12 {
   width: 100%;
 }
-
-/*#endregion */
 
 @media only screen and (min-width: 576px) {
   .col-sm-1 {
@@ -403,8 +366,6 @@ section.content {
     width: 100%;
   }
 }
-
-/*#endregion */
 
 .btn-email {
   position: relative;
