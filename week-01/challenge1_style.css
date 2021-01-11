@@ -8,9 +8,23 @@ ul {
   margin: 0 25%;
   display: inline-table;
   text-align: center;
+  list-style-position: inside;
+  /* list-style-type: none; */
 }
+/* make increment number to elements */
 /* li {
-  display: inline-block;
+  counter-increment: mynum;
+}
+li::before {
+  content: counter(mynum);
+} */
+/* li {
+  padding-left: 16px;
+}
+li::before {
+  content: '•'; 
+  padding-right: 8px;
+  color: blue; 
 } */
 footer {
   font-size: small;
